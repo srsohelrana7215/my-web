@@ -1,0 +1,19 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+#name{
+    color:goldenrod;
+}
+h1{
+    font-size: 45px;
+}
+.fast-page{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.fast-page img{
+    width: 70%;
+}
