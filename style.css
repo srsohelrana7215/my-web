@@ -1,13 +1,23 @@
 body{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(255, 255, 255);
+    margin: 0px;
 }
-#name{
+.name{
     color:goldenrod;
 }
-h1{
+.fornt-color{
     font-size: 45px;
+    color: antiquewhite;
 }
+#hthreefast{
+    color: cadetblue;
+    font-size: 25px;
+}
+#fastptag{
+    color: coral;
+}
+
 .fast-page{
     width: 40%;
     float: left;
@@ -16,4 +26,107 @@ h1{
 }
 .fast-page img{
     width: 70%;
+    margin-right: 5%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.top-banner{
+    background-image: url(imeages/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+.seconddiv{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.seconddiv img{
+    width: 100%;
+}
+.secondone{
+    color: rgb(224, 67, 67);
+}
+.secondhthree{
+    color: rgb(239, 103, 103);
+}
+.secondptag{
+    text-align: justify;
+}
+.buttonb{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, red);
+    padding: 10px 20px ;
+    border-radius: 9px;
+    color: black;
+    font-weight: 700;
+}
+.thardsec{
+    float: right;
+    width: 40%;
+    margin-top: 0%;
+    padding-left: 2%;
+    padding-right:0%;
+    margin-right: 5%;
+    
+}
+.lasth{
+    color: black;
+}
+.lasthh{
+    color: blueviolet;
+    
+}
+.lastp{
+    text-align: justify;
+}
+.lastone{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+    
+    
+}
+.exp{
+    text-align: center;
+    font-size: 45px;
+}
+.expe{
+    font-size: 40px;
+}
+.namee{
+    color: orange;
+    font-size: 23px;
+}
+
+.lastged{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+}
+#last{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(255, 180, 151), red);
+    border-image-slice: 1;
+}
+#lastt{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, rgb(0, 229, 255));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
